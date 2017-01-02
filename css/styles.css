@@ -1,0 +1,62 @@
+#result1{
+  background-color: blue;
+  border-bottom: 1px solid green;
+  padding: 5px;
+}
+
+#header{
+  background-color: red;
+  padding: 10px;
+}
+
+form, {
+  display: inline;
+}
+
+#rank{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.ranking{
+  font-size: 18px;
+  display: inline;
+  margin-left: 20px;
+  border-left: 1px solid black;
+  padding-left: 15px; 
+}
+ 
+.ranking:hover{
+  color: red;
+}
+
+#result1{
+  padding: 10px;
+}
+#text1{ 
+  margin-left: 110px;
+  margin-top: -100px;  
+}
+
+#pic1{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+#user1{
+  background-color: yellow;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+#userId1{
+  width: 35px;
+  height: 35px;
+}
+
+#update1{
+  float: right;
+  margin-right: 650px;
+}
