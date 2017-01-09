@@ -1,31 +1,72 @@
-console.log("hi");
+/*You will need to refer to the index.html page to complete the exercises below. Using DOM, please make the necessary changes to the website.*/
+
+/*1. Kapiolani Coffee Shop
+Despite being top dog, Kapiolani Coffee Shop's current rating is n/a. Let's keep the hungry fans happy by changing the current ranking to:
+
+Rating: 5 Stars*/
+
+var ratingElement = document.getElementById("rating1").innerHTML = "Rating: 5 Stars";
+
+/*2. Sunrise Restaurant
+No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Change the price and address to the following:
+
+Price: $$$
+Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
+
+var priceElement = document.getElementById("price2").innerHTML = "Price: $$$";
+
+var addyElement = document.getElementById("addy2").innerHTML = "Address: 525 Kapahulu Ave, Honolulu, HI 96815";
+
+/*3. Ramen Nakamura
+Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless...
+
+You will need to create a new div element with an id of "hours3". Inside this div element, give it the following text:
+
+Hours: 6pm - 12am Sun - Sat
+
+Append this div element to the div id "text3*/
+
+var hourElement = document.createElement("div");
+hourElement.id = "hours3";
+hourElement.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(hourElement);
 
 
-var nameElement = document.getElementById("name5");
-nameElement.innerHTML = "5. Heinz Corp";
-
-var rateElement = document.getElementById("rating5");
-rateElement.innerHTML = "Rating: 5 Stars";
-
-var priceElement = document.getElementById("price5");
-priceElement.innerHTML = "Price: $";
-
-var addyElement = document.getElementById("addy5");
-addyElement.innerHTML = "Times Supermarket";
-
-var hourElement = document.getElementById("hours5");
-hourElement.innerHTML = "Hours: 9am - 10pm";
+/*4. Kam Bowl
 
 
-/*var element6 = document.createElement("div");
-element6.id = "result6";
-main.appendChild(element6);
 
-var pho6 = document.createElement("div");
-pho6.id = "photo6";
-element6.appendChild(pho6);
+Create a div element with an id of "price4". The text in this element should read:
 
-var img6 = document.createElement("img");
-img6.id = "pic6";
-img6.src = "https://i1.wp.com/diversedinners.com/wp-content/uploads/2015/03/Oxtail-Soup.jpg";
-pho6.appendChild(img6);*/
+Price: $$$
+
+Append this element to the div with the id of 
+"text4"*/
+
+var price4Elem = document.createElement("div");
+price4Elem.id = "price4";
+price4Elem.innerHTML = "Price: $$$";
+text4.appendChild(price4Elem);
+
+/*Create a div element with an id of "addy4". The text in this element should read:
+
+Address: 1620 N. School St, Honolulu, HI 96817
+
+Append this element to the div with the id of "text4"*/
+
+var addy4Elem = document.createElement("div");
+addy4Elem.id = "addy4";
+addy4Elem.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(addy4Elem);
+
+/*Create a div element with an id of "hours4". The text in this element should read:
+
+Hours: 9am - 10pm Sun - Sat
+
+Append this element to the div with the id of "text4"*/
+
+var hours4Elem = document.createElement("div");
+hours4Elem.id = "hours4";
+hours4Elem.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(hours4Elem);
+
