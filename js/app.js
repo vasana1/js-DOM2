@@ -7,6 +7,9 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+var changeRating=document.getElementById("rating1");
+changeRating.innerHTML="Rating: 5 Stars";
+
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
@@ -14,6 +17,10 @@ Rating: 5 Stars*/
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+var changePrice=document.getElementById("price2");
+changePrice.innerHTML="$$$";
+var changeAddress=document.getElementById("addy2");
+changeAddress.innerHTML="525 Kapahulu Ave, Honolulu, HI 96815";
 
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
@@ -23,6 +30,11 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
+
+var hours=document.createElement("div");
+hours.id+"hours3";
+hours.innerHTML="Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(hours);
 
 
 //4. Kam Bowl
@@ -56,6 +68,25 @@ I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
 
+var kamPrice=document.createElement("div");
+kamPrice.id="price4";
+kamPrice.innerHTML="Price: $$$";
+text4.appendChild(kamPrice);
+
+var kamAddress=document.createElement("div");
+kamAddress.id="addy4";
+kamAddress.innerHTML="Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(kamAddress);
+
+var kamHours=document.createElement("div");
+kamHours.id="hours4";
+kamHours.innerHTML="Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(kamHours);
+
+var kamReview=document.createElement("p");
+kamReview.p="update4";
+kamReview.innerHTML="I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(kamReview);
 
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
@@ -79,3 +110,27 @@ hours5: Hours: We never close.
 Append the div elements to the div id "text5"
 */
 
+var deathName=document.createElement("div");
+deathName.id="name5"; 
+deathName.innerHTML="5. The Death Star Cafe";
+text5.appendChild(deathName);
+
+var deathRating=document.createElement("div");
+deathRating.id="rating5"; 
+deathRating.innerHTML="Rating: 2 Stars";
+text5.appendChild(deathRating);
+
+var deathPrice=document.createElement("div");
+deathPrice.id="price5"; 
+deathPrice.innerHTML="Price: $$";
+text5.appendChild(deathPrice);
+
+var deathAdd=document.createElement("div");
+deathAdd.id="addy5"; 
+deathPrice.innerHTML="Address: A galaxy far, far away.";
+text5.appendChild(deathAdd);
+
+var deathHours=document.createElement("div");
+deathHours.id="hours5"; 
+deathHours.innerHTML="Hours: We never close.";
+text5.appendChild(deathHours);
